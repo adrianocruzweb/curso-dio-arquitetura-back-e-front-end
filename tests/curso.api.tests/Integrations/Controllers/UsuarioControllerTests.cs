@@ -3,6 +3,7 @@ using curso.api.Models.Usuarios;
 using curso.api.tests.Configurations;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Newtonsoft.Json;
+using System;
 using System.Net;
 using System.Net.Http;
 using System.Text;
@@ -34,7 +35,8 @@ namespace curso.api.tests.Integrations.Controllers
             RegistroViewModelInput = new AutoFaker<RegistroViewModelInput>(AutoBogusConfiguration.LOCATE)
                                             .RuleFor(p => p.Login, faker => faker.Person.UserName)
                                             .RuleFor(p => p.Email, faker => faker.Person.Email);
-                                                
+
+
             StringContent content = new StringContent(JsonConvert.SerializeObject(RegistroViewModelInput), Encoding.UTF8, "application/json");
 
             // Act

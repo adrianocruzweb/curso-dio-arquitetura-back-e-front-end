@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "curso.api", "curso.api\curso.api.csproj", "{75C58EA1-BCC2-4B82-A2C6-9DDECFA420A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "curso.api", "src\curso.api\curso.api.csproj", "{75C58EA1-BCC2-4B82-A2C6-9DDECFA420A4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "curso.web.mvc", "curso.web.mvc\curso.web.mvc.csproj", "{124CFE28-C912-4AB2-B322-5A9F542C3F13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "curso.web.mvc", "src\curso.web.mvc\curso.web.mvc.csproj", "{124CFE28-C912-4AB2-B322-5A9F542C3F13}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7BF1768C-EAB3-4AA3-BD6F-AFD4B7443679}"
 EndProject
