@@ -36,7 +36,6 @@ namespace curso.api.tests.Integrations.Controllers
                                             .RuleFor(p => p.Login, faker => faker.Person.UserName)
                                             .RuleFor(p => p.Email, faker => faker.Person.Email);
 
-
             StringContent content = new StringContent(JsonConvert.SerializeObject(RegistroViewModelInput), Encoding.UTF8, "application/json");
 
             // Act
